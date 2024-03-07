@@ -1,8 +1,15 @@
 # Global Context Design Pattern
 
+**Table of Contents**:
+- [Global Context Design Pattern](#global-context-design-pattern-1)
+  - [1) Create a `ContextProvider` wrapper component](#1-create-a-contextprovider-wrapper-component)
+  - [2) Import and Render the ContextProvider component in main.jsx](#2-import-and-render-the-contextprovider-component-in-mainjsx)
+  - [3) Refactor other components as necessary](#3-refactor-other-components-as-necessary)
+
+
 ## Global Context Design Pattern
 
-![](./notes-img/instagram-context-diagram.svg)
+<img src='./notes-img/instagram-context-diagram.svg' style='max-width: 1000px' />
 
 The illustration above shows how we can **wrap the _entire_ `App` component in our context**, but in the example we only wrap the `PostList` component.
 
